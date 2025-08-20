@@ -1,0 +1,37 @@
+.cart-list-title {
+  text-align: center;
+}
+
+.cart-items {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  gap: 10px;
+  place-content: center;
+  margin-top: 10px;
+}
+
+.cart-item {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.cart-item-remove {
+  border: 1px solid #ad3232;
+  font-size: 16px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.cart-item-remove:hover {
+  background-color: #ad3232;
+  color: #eee;
+}
+
+.is-empty {
+  text-align: center;
+  font-size: 18px;
+}
