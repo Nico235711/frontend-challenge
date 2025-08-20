@@ -10,7 +10,7 @@ const ProductList = () => {
   const [selectedCategory, setSelectedCategory] = useState('all')
   const [searchQuery, setSearchQuery] = useState('')
   const [sortBy, setSortBy] = useState('name')
-  const [sortByRange, setSortByRange] = useState(0)
+  // const [sortByRange, setSortByRange] = useState(0)
   const [sortBySupplier, setSortBySupplier] = useState("smart-gifts")
 
   // Filter and sort products based on criteria
